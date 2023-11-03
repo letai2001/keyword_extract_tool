@@ -33,7 +33,7 @@ def replace_(text):
 # return combined_annotated_data
 
 # Văn bản cần xử lý
-text = "Hãng Reuters đưa tin, Israel đã mở rộng các hoạt động trên bộ ở Gaza nhằm trả đũa Hamas - lực lượng nắm quyền tại Dải Gaza, vì cuộc tấn công bất ngờ vào nước này cách đây 3 tuần, làm 1.400 người thiệt mạng. Các nhân chứng cho biết, lực lượng Israel nhắm mục tiêu vào tuyến đường chính nối bắc và nam Gaza và tấn công Gaza City từ hai hướng. Lữ đoàn Al-Qassam, cánh vũ trang của Hamas cho hay, sáng sớm nay các chiến binh của họ đụng độ với quân Israel đang tràn vào trục phía nam Gaza. Chiến binh Hamas đã dùng súng máy và các tên lửa al-Yassin 105 để nhắm bắn các phương tiện của Israel. Ngoài ra, họ cũng dùng tên lửa để hạ hai xe tăng và nhiều xe ủi đất khác của Israel tại tây bắc Gaza, lữ đoàn Al-Qassam cho hay. Israel hiện chưa bình luận gì về thông tin Hamas đưa ra và Reuters cho biết hiện chưa thể xác nhận thông tin về giao tranh. Theo giới chức y tế Gaza, tổng số 8.306 người đã thiệt mạng kể từ khi Israel tấn công khu vực này. Trong khi đó, các quan chức Liên Hợp Quốc nói hơn 1,4 triệu người trong tổng số 2,3 triệu dân ở Gaza đã mất nhà.Số người thiệt mạng do xung đột Israel - Hamas tăng đã khiến Mỹ và nhiều quốc gia khác kêu gọi tạm dừng giao tranh để có thể đưa viện trợ nhân đạo tới Gaza. Các chuyên gia quân sự nhận xét, lực lượng Israel đang tấn công trên bộ một cách chậm rãi, một phần là để ngỏ khả năng các chiến binh Hamas sẽ đàm phán thả con tin. Điều này trái ngược với những cuộc không kích không ngừng nghỉ trong 3 tuần qua cũng như các cuộc tấn công trên bộ trước đây của Israel vào Dải Gaza."
+text = "Chủ tịch nước Võ Văn Thưởng cho biết, Việt Nam và Mông Cổ hoan nghênh việc ký kết hiệp định về miễn thị thực cho người dân hai nước, góp phần mở rộng hợp tác thương mại, du lịch, giao lưu nhân dân. Đồng thời, hai bên hoan nghênh những kết quả đạt được trong hợp tác quốc phòng - an ninh trong thời gian qua, nhất trí tăng cường hợp tác thực chất trong lĩnh vực tư pháp, công nghiệp quốc phòng, an ninh, thông qua những dự án cụ thể, trong đó có hợp tác chống tội phạm ma túy xuyên quốc gia, trao đổi học viên quốc phòng và an ninh. Trong chuyến thăm lần này của Tổng thống Mông Cổ, Bộ trưởng Ngoại giao hai nước đã ký Hiệp định giữa Việt Nam và Mông Cổ về miễn thị thực cho hộ chiếu ngoại giao, hộ chiếu công vụ, hộ chiếu phổ thông. ệp định về miễn thị thực cho người dân hai nước, góp phần mở rộng hợp tác thương mại, du lịch, giao lưu nhân dân. Đồng thời, hai bên hoan nghênh những kết quả đạt được trong hợp tác quốc phòng - an ninh trong thời gian qua, nhất trí tăng cường hợp tác thực chất trong lĩnh vực tư pháp, công nghiệp quốc phòng, an ninh, thông qua những dự án cụ thể, trong đó có hợp tác chống tội phạm ma túy xuyên quốc gia, trao đổi học viên quốc phòng và an ninh. Trong chuyến thăm lần này của Tổng thống Mông Cổ, Bộ trưởng Ngoại giao hai nước đã ký Hiệp định giữa Việt Nam và Mông Cổ về miễn thị thực cho hộ chiếu ngoại giao, hộ chiếu công vụ, hộ chiếu phổ thông. Chủ tịch nước Võ Văn Thưởng cũng cho biết, hai nước nhất trí thúc đẩy mục tiêu nâng gấp đôi kim ngạch thương mại song phương lên mức 200 triệu USD trong những năm tới, tiếp tục thúc đẩy mở rộng xuất nhập khẩu hàng hóa song phương, mở cửa cho hàng hóa của nhau trên cơ sở đáp ứng các tiêu chuẩn, nhu cầu của mỗi bên. Tăng cường các hoạt động xúc tiến đầu tư, đẩy mạnh hợp tác, đa dạng hóa chuỗi cung ứng nguyên liệu, nhất là trong các ngành hai bên có thế mạnh. Nghiên cứu khả năng hợp tác trong lĩnh vực khoáng sản chiến lược giữa hai nước và hỗ trợ doanh nghiệp hai nước trong quá trình nghiên cứu, triển khai hoạt động đầu tư, đẩy mạnh hợp tác giữa các địa phương hai nước, thiết lập các cặp quan hệ hợp tác về kinh tế. Chủ tịch nước Võ Văn Thưởng cũng cho biết, hai nước nhất trí tiếp tục tạo điều kiện và bảo vệ quyền lợi chính đáng cho công dân hai nước yên tâm sinh sống, học tập và làm việc tại nước kia, phát huy vai trò cầu nối, thúc đẩy quan hệ hữu nghị Việt Nam - Mông Cổ. Trên bình diện đa phương, Chủ tịch nước Võ Văn Thưởng nhấn mạnh, Việt Nam mong muốn Mông Cổ tiếp tục ủng hộ lập trường của ASEAN trong bảo đảm an ninh, an toàn hàng hải, hàng không ở Biển Đông, ủng hộ giải quyết mọi tranh chấp, bất đồng bằng biện pháp hòa bình, trên cơ sở luật pháp quốc tế, nhất là Công ước của Liên Hiệp Quốc về luật Biển năm 1982."
 
 # Loại bỏ từ dừng
 filtered_text = standardize_data(text)
@@ -72,6 +72,7 @@ for group in sentence_groups:
 
 # Combine the tokens and POS tags into a single list of tuples
 combined_data = list(zip(all_tokens, all_pos_tags))
+seg_text = ' '.join([word for word in seg_text.split() if word.lower() not in stop_words])
 
 
 # Annotate a corpus where each line represents a word-segmented sentence
@@ -134,17 +135,27 @@ top_3_sentences = [s[0] for s in sorted_sentences]
 # Step 4: Extract keywords from the top 3 important sentences
 final_keywords = []
 high_tfidf_nouns = []
-high_tfidf_nouns = [
-    w for w, pos in combined_data
-    if (pos == 'Np' or (pos in ['N', 'Nc', 'Nu'] and '_' in w)) and w.lower() in top_10_words
-]
-# for w  , pos in combined_data: 
-#     k = w.lower()
-#     h = tfidf_dict.get(k, 0)
-#     if (pos == 'Np' or (pos in ['N', 'Nc', 'Nu'] and '_' in w)) and h in top_10_words:
-#        high_tfidf_nouns.append(w) 
+# high_tfidf_nouns = [
+#     w for w, pos in combined_data
+#     if (pos == 'Np' or (pos in ['N', 'Nc', 'Nu'] and '_' in w)) and w.lower() in top_10_words
+# ]
+# final_keywords.extend(high_tfidf_nouns)
+sorted_tfidf_example = sorted(filtered_tfidf_dict.items(), key=lambda x: x[1], reverse=True)
+words_from_sorted = [word for word, score in sorted_tfidf_example]
 
-final_keywords.extend(high_tfidf_nouns)
+# Extract separate lists for nouns, verbs, and adjectives
+nouns_example_10 = [word for word, tag in combined_data if tag in ['N', 'Nc', 'Np', 'Nu'] and word in words_from_sorted][:10]
+verbs_adjectives_example_5 = [word for word, tag in combined_data if tag in ['V', 'A'] and word in words_from_sorted][:5]
+nouns_example_set = set(nouns_example_10)
+verbs_adjectives_example_set = set(verbs_adjectives_example_5)
+
+# Get the top 10 nouns and top 5 verbs/adjectives
+# top_10_nouns_example = sorted(nouns_example_set, key=lambda w: sorted_tfidf_example[w], reverse=True)[:10]
+# top_5_verbs_adjectives_example = sorted(verbs_adjectives_example_set, key=lambda w: sorted_tfidf_example[w], reverse=True)[:5]
+final_keywords.extend(nouns_example_set)
+final_keywords.extend(verbs_adjectives_example_set)
+
+
 for s in top_3_sentences:
     words_in_sentence = s.split()
     pos_tags_in_sentence = [all_pos_tags[all_tokens.index(w.lower())] for w in words_in_sentence if w.lower() in all_tokens]
@@ -166,13 +177,13 @@ for s in top_3_sentences:
     ]
     final_keywords.extend(other_nouns)
     
-    high_tfidf_adj_verbs = [
-    w for w, pos in combined_data 
-    if ('_' in w and pos in ['A', 'V'] and tfidf_dict.get(w.lower(), 0) in top_10_words)
-]
-    final_keywords.extend(high_tfidf_adj_verbs)
+#     high_tfidf_adj_verbs = [
+#     w for w, pos in combined_data 
+#     if ('_' in w and pos in ['A', 'V'] and tfidf_dict.get(w.lower(), 0) in top_10_words)
+# ]
+#     final_keywords.extend(high_tfidf_adj_verbs)
 
-
+final_keywords = set(final_keywords)
 print(top_10_words, top_3_sentences, final_keywords)
 
 
