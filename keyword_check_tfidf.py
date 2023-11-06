@@ -127,10 +127,10 @@ for s in important_sentences:
     sentence_tfidf_scores.append((s, sentence_tfidf_score))
 
 # Sort the sentences by their TF-IDF scores
-sorted_sentences = sorted(sentence_tfidf_scores, key=lambda x: x[1], reverse=True)[:3]
+sorted_sentences = sorted(sentence_tfidf_scores, key=lambda x: x[1], reverse=True)[:2]
 
 # Extract the top 3 important sentences
-top_3_sentences = [s[0] for s in sorted_sentences]
+top_2_sentences = [s[0] for s in sorted_sentences]
 
 # Step 4: Extract keywords from the top 3 important sentences
 final_keywords = []
@@ -144,8 +144,8 @@ sorted_tfidf_example = sorted(filtered_tfidf_dict.items(), key=lambda x: x[1], r
 words_from_sorted = [word for word, score in sorted_tfidf_example]
 
 # Extract separate lists for nouns, verbs, and adjectives
-nouns_example_10 = [word for word, tag in combined_data if tag in ['N', 'Nc', 'Np', 'Nu'] and word in words_from_sorted][:10]
-verbs_adjectives_example_5 = [word for word, tag in combined_data if tag in ['V', 'A'] and word in words_from_sorted][:5]
+nouns_example_10 = [word for word, tag in combined_data if tag in ['N', 'Nc', 'Np', 'Nu'] and word.lower() in words_from_sorted][:10]
+verbs_adjectives_example_5 = [word for word, tag in combined_data if tag in ['V', 'A'] and word.lower() in words_from_sorted][:5]
 nouns_example_set = set(nouns_example_10)
 verbs_adjectives_example_set = set(verbs_adjectives_example_5)
 
@@ -156,7 +156,7 @@ final_keywords.extend(nouns_example_set)
 final_keywords.extend(verbs_adjectives_example_set)
 
 
-for s in top_3_sentences:
+for s in top_2_sentences:
     words_in_sentence = s.split()
     pos_tags_in_sentence = [all_pos_tags[all_tokens.index(w.lower())] for w in words_in_sentence if w.lower() in all_tokens]
 
@@ -173,7 +173,7 @@ for s in top_3_sentences:
     # Extract other compound words with specific POS tags and proper nouns in the sentence
     other_nouns = [
         w for w, pos in combined_data 
-        if ((pos == 'Np' or (pos in ['N', 'Nc', 'Nu'] and '_' in w)) and w.lower() not in [word.lower() for word in high_tfidf_nouns])
+        if ((pos == 'Np' or (pos in ['N', 'Nc', 'Nu'] and '_' in w)) and w.lower() not in [word.lower() for word in nouns_example_set])
     ]
     final_keywords.extend(other_nouns)
     
@@ -184,6 +184,6 @@ for s in top_3_sentences:
 #     final_keywords.extend(high_tfidf_adj_verbs)
 
 final_keywords = set(final_keywords)
-print(top_10_words, top_3_sentences, final_keywords)
+print(top_10_words, top_2_sentences, final_keywords)
 
 
