@@ -5,7 +5,7 @@ import json
 with open('vietnamese-stopwords-dash.txt', 'r', encoding='utf-8') as f:
     stop_words = f.read().splitlines()
     
-with open('content_test_new.json', 'r' , encoding='utf-8') as file:
+with open('content_test_media.json', 'r' , encoding='utf-8') as file:
     data = json.load(file)
 
 vn_core = VnCoreNLP("C:\\Users\\Admin\\Downloads\\vncorenlp\\VnCoreNLP\\VnCoreNLP-1.2.jar" ,  annotators="wseg,pos ,ner", max_heap_size='-Xmx2g')
